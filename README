@@ -13,7 +13,7 @@ All in all, it's a short little program that certainly worked as it was supposed
 
 ***Use***
 
-Though the program is pretty domain specific (i.e. I don't imagine most people need to scrape date/time information off the Sirion SEM website), I'll include some basic usage instructions.
+Though the program is pretty domain-specific (i.e. I don't imagine most people need to scrape date/time information off the Sirion SEM website), I'll include some basic usage instructions.
 
 Save the ```gcalendar.py``` and ```sirionreader.py``` files in the same directory. Update the ```accountname``` variable in ```gcalendar.py``` with the name of the Google account you wish to use. Run ```gcalendar.py```. 
 You will probably be required to authorize your Google account the first time manually, but afterwards the program should be able to use the refresh access token included in the calendar.dat file that will in the directory where the .py files were saved. That's it! Your Google calendar should be updated!
