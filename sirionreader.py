@@ -76,11 +76,9 @@ def convertTime(inputtime):
 	return str(hour)+minutes
 
 def convertToRFC(inputinfo):
-	"""Converts a given date/time list to RFC 3339 standard time
-	   input a list containing the date/time as returned above
-	   set an end time 1 hour after start time
-	   return as a dictionary--{start:end}.
-	   This method was pretty lousily hard-coded."""
+	"""Converts a given date/time list to RFC 3339 standard time input a list containing the 
+	   date/time as returned above set an end time 1 hour after start time return as a 
+	   dictionary--{start:end}. This method was pretty lousily hard-coded."""
 	startend={}
 	start=[]
 	end=[]
